@@ -84,7 +84,7 @@ const Card = ({
         <div>
           <div className="input-group mb-3">
             <div className="input-group-prepend">
-              <span className="input-group-text">ADJUST QUANTITY</span>
+              <span className="input-group-text">Adet</span>
             </div>
             <input
               type="number"
