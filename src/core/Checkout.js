@@ -5,7 +5,7 @@ import {
   createOrder,
 } from "./apiCore";
 import { isAuthenticated } from "../auth";
-import { Link, Redirect } from "react-router-dom";
+import { Link } from "react-router-dom";
 import DropIn from "braintree-web-drop-in-react";
 import { emptyCart } from "./cartHelpers";
 
