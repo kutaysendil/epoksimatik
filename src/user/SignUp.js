@@ -89,7 +89,7 @@ const SignUp = () => {
     </div>
   );
   return (
-    <>
+    <div>
       <Layout
         title="Üye Ol"
         description="Alışverişe başlamak için lütfen üye olunuz"
@@ -99,7 +99,7 @@ const SignUp = () => {
         {showError()}
         {signUpForm()}
       </Layout>
-    </>
+    </div>
   );
 };
 
